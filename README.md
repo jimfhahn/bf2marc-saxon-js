@@ -1,7 +1,7 @@
-# Modified Saxon JS Hello World NodeJS for Library of Congress marc2bibframe2 transformation
+# Modified Saxon JS Hello World NodeJS for Library of Congress bibframe2marc transformation
 It's all in the index.html
 
-With thanks to the  Network Development and MARC Standards Office for https://github.com/lcnetdev/marc2bibframe2 code development and maintenance. :)
+With thanks to the  Network Development and MARC Standards Office for https://github.com/lcnetdev/bibframe2marc code development and maintenance. :)
 ## Hello World in Saxon JS 2 on Node.js
 
 This project contains (almost) the simplest possible “hello world”
