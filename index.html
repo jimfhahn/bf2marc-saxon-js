@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BIBFRAME to MARC via XSLT</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="text/javascript" src="SaxonJS2.rt.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function handleFile(input) {
+        FileURL = URL.createObjectURL(input[0]);
+        SaxonJS.transform(
+          {
+            stylesheetLocation: "main.sef.json",
+            sourceLocation: FileURL,
+            destination: "serialized",
+          },
+          "async"
+        ).then((output) => {
+         console.log(output.principalResult);
+        //put the output in the textarea
+        document.getElementById("output").value = output.principalResult;
+        });
+      }
+    </script>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>BIBFRAME to MARCXML using <a href="https://github.com/lcnetdev/bibframe2marc">bibframe2marc</a></h1>
+          <p>Upload a BIBFRAME RDF/XML file to convert it to MARC XML.</p>
+          <form>
+            <input
+              type="file"
+              id="file"
+              name="file"
+              onchange="handleFile(this.files)"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Output</h2>
+          <textarea id="output" rows="20" cols="100"></textarea>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
