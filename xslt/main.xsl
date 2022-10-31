@@ -20,7 +20,7 @@
   <xsl:param name="pSRULookup"/>
   <xsl:variable name="lower">abcdefghijklmnopqrstuvwxyz</xsl:variable>
   <xsl:variable name="upper">ABCDEFGHIJKLMNOPQRSTUVWXYZ</xsl:variable>
-  <xsl:variable name="vCurrentVersion">DLC bibframe2marc v2.0.0</xsl:variable>
+  <xsl:variable name="vCurrentVersion">DLC bibframe2marc v2.1.0</xsl:variable>
   <xsl:variable name="df880script">
     <script xmlns:bf2marc="http://www.loc.gov/bf2marc">
       <lang>arab</lang>
@@ -645,6 +645,1972 @@
       <type>woodwind, ethnic</type>
     </performer>
   </xsl:variable>
+  <xsl:variable name="languages">
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>aa</xmllang>
+      <iso6392>aar</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ab</xmllang>
+      <iso6392>abk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ace</xmllang>
+      <iso6392>ace</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ach</xmllang>
+      <iso6392>ach</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ada</xmllang>
+      <iso6392>ada</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ady</xmllang>
+      <iso6392>ady</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>afa</xmllang>
+      <iso6392>afa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>afh</xmllang>
+      <iso6392>afh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>af</xmllang>
+      <iso6392>afr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ain</xmllang>
+      <iso6392>ain</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ak</xmllang>
+      <iso6392>aka</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>akk</xmllang>
+      <iso6392>akk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sq</xmllang>
+      <iso6392>sqi</iso6392>
+      <iso6392>alb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ale</xmllang>
+      <iso6392>ale</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>alg</xmllang>
+      <iso6392>alg</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>alt</xmllang>
+      <iso6392>alt</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>am</xmllang>
+      <iso6392>amh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ang</xmllang>
+      <iso6392>ang</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>anp</xmllang>
+      <iso6392>anp</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>apa</xmllang>
+      <iso6392>apa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ar</xmllang>
+      <iso6392>ara</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>arc</xmllang>
+      <iso6392>arc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>an</xmllang>
+      <iso6392>arg</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hy</xmllang>
+      <iso6392>hye</iso6392>
+      <iso6392>arm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>arn</xmllang>
+      <iso6392>arn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>arp</xmllang>
+      <iso6392>arp</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>art</xmllang>
+      <iso6392>art</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>arw</xmllang>
+      <iso6392>arw</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>as</xmllang>
+      <iso6392>asm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ast</xmllang>
+      <iso6392>ast</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ath</xmllang>
+      <iso6392>ath</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>aus</xmllang>
+      <iso6392>aus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>av</xmllang>
+      <iso6392>ava</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ae</xmllang>
+      <iso6392>ave</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>awa</xmllang>
+      <iso6392>awa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ay</xmllang>
+      <iso6392>aym</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>az</xmllang>
+      <iso6392>aze</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bad</xmllang>
+      <iso6392>bad</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bai</xmllang>
+      <iso6392>bai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ba</xmllang>
+      <iso6392>bak</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bal</xmllang>
+      <iso6392>bal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bm</xmllang>
+      <iso6392>bam</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ban</xmllang>
+      <iso6392>ban</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>eu</xmllang>
+      <iso6392>eus</iso6392>
+      <iso6392>baq</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bas</xmllang>
+      <iso6392>bas</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bat</xmllang>
+      <iso6392>bat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bej</xmllang>
+      <iso6392>bej</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>be</xmllang>
+      <iso6392>bel</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bem</xmllang>
+      <iso6392>bem</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bn</xmllang>
+      <iso6392>ben</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ber</xmllang>
+      <iso6392>ber</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bho</xmllang>
+      <iso6392>bho</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bh</xmllang>
+      <iso6392>bih</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bik</xmllang>
+      <iso6392>bik</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bin</xmllang>
+      <iso6392>bin</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bi</xmllang>
+      <iso6392>bis</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bla</xmllang>
+      <iso6392>bla</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bnt</xmllang>
+      <iso6392>bnt</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bo</xmllang>
+      <iso6392>bod</iso6392>
+      <iso6392>tib</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bs</xmllang>
+      <iso6392>bos</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bra</xmllang>
+      <iso6392>bra</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>br</xmllang>
+      <iso6392>bre</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>btk</xmllang>
+      <iso6392>btk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bua</xmllang>
+      <iso6392>bua</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bug</xmllang>
+      <iso6392>bug</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>bg</xmllang>
+      <iso6392>bul</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>my</xmllang>
+      <iso6392>mya</iso6392>
+      <iso6392>bur</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>byn</xmllang>
+      <iso6392>byn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cad</xmllang>
+      <iso6392>cad</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cai</xmllang>
+      <iso6392>cai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>car</xmllang>
+      <iso6392>car</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ca</xmllang>
+      <iso6392>cat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cau</xmllang>
+      <iso6392>cau</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ceb</xmllang>
+      <iso6392>ceb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cel</xmllang>
+      <iso6392>cel</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cs</xmllang>
+      <iso6392>ces</iso6392>
+      <iso6392>cze</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ch</xmllang>
+      <iso6392>cha</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chb</xmllang>
+      <iso6392>chb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ce</xmllang>
+      <iso6392>che</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chg</xmllang>
+      <iso6392>chg</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zh</xmllang>
+      <iso6392>zho</iso6392>
+      <iso6392>chi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chk</xmllang>
+      <iso6392>chk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chm</xmllang>
+      <iso6392>chm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chn</xmllang>
+      <iso6392>chn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cho</xmllang>
+      <iso6392>cho</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chp</xmllang>
+      <iso6392>chp</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chr</xmllang>
+      <iso6392>chr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cu</xmllang>
+      <iso6392>chu</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cv</xmllang>
+      <iso6392>chv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>chy</xmllang>
+      <iso6392>chy</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cmc</xmllang>
+      <iso6392>cmc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cop</xmllang>
+      <iso6392>cop</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kw</xmllang>
+      <iso6392>cor</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>co</xmllang>
+      <iso6392>cos</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cpe</xmllang>
+      <iso6392>cpe</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cpf</xmllang>
+      <iso6392>cpf</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cpp</xmllang>
+      <iso6392>cpp</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cr</xmllang>
+      <iso6392>cre</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>crh</xmllang>
+      <iso6392>crh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>crp</xmllang>
+      <iso6392>crp</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>csb</xmllang>
+      <iso6392>csb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cus</xmllang>
+      <iso6392>cus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>cy</xmllang>
+      <iso6392>cym</iso6392>
+      <iso6392>wel</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dak</xmllang>
+      <iso6392>dak</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>da</xmllang>
+      <iso6392>dan</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dar</xmllang>
+      <iso6392>dar</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>day</xmllang>
+      <iso6392>day</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>del</xmllang>
+      <iso6392>del</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>den</xmllang>
+      <iso6392>den</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>de</xmllang>
+      <iso6392>ger</iso6392>
+      <iso6392>deu</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dgr</xmllang>
+      <iso6392>dgr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>din</xmllang>
+      <iso6392>din</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dv</xmllang>
+      <iso6392>div</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>doi</xmllang>
+      <iso6392>doi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dra</xmllang>
+      <iso6392>dra</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dsb</xmllang>
+      <iso6392>dsb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dua</xmllang>
+      <iso6392>dua</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dum</xmllang>
+      <iso6392>dum</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nl</xmllang>
+      <iso6392>nld</iso6392>
+      <iso6392>dut</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dyu</xmllang>
+      <iso6392>dyu</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>dz</xmllang>
+      <iso6392>dzo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>efi</xmllang>
+      <iso6392>efi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>egy</xmllang>
+      <iso6392>egy</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>eka</xmllang>
+      <iso6392>eka</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>el</xmllang>
+      <iso6392>ell</iso6392>
+      <iso6392>gre</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>elx</xmllang>
+      <iso6392>elx</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>en</xmllang>
+      <iso6392>eng</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>enm</xmllang>
+      <iso6392>enm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>eo</xmllang>
+      <iso6392>epo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>et</xmllang>
+      <iso6392>est</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ee</xmllang>
+      <iso6392>ewe</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ewo</xmllang>
+      <iso6392>ewo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fan</xmllang>
+      <iso6392>fan</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fo</xmllang>
+      <iso6392>fao</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fa</xmllang>
+      <iso6392>fas</iso6392>
+      <iso6392>per</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fat</xmllang>
+      <iso6392>fat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fj</xmllang>
+      <iso6392>fij</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fil</xmllang>
+      <iso6392>fil</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fi</xmllang>
+      <iso6392>fin</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fiu</xmllang>
+      <iso6392>fiu</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fon</xmllang>
+      <iso6392>fon</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fr</xmllang>
+      <iso6392>fre</iso6392>
+      <iso6392>fra</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>frm</xmllang>
+      <iso6392>frm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fro</xmllang>
+      <iso6392>fro</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>frr</xmllang>
+      <iso6392>frr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>frs</xmllang>
+      <iso6392>frs</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fy</xmllang>
+      <iso6392>fry</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ff</xmllang>
+      <iso6392>ful</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>fur</xmllang>
+      <iso6392>fur</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gaa</xmllang>
+      <iso6392>gaa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gay</xmllang>
+      <iso6392>gay</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gba</xmllang>
+      <iso6392>gba</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gem</xmllang>
+      <iso6392>gem</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ka</xmllang>
+      <iso6392>geo</iso6392>
+      <iso6392>kat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gez</xmllang>
+      <iso6392>gez</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gil</xmllang>
+      <iso6392>gil</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gd</xmllang>
+      <iso6392>gla</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ga</xmllang>
+      <iso6392>gle</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gl</xmllang>
+      <iso6392>glg</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gv</xmllang>
+      <iso6392>glv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gmh</xmllang>
+      <iso6392>gmh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>goh</xmllang>
+      <iso6392>goh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gon</xmllang>
+      <iso6392>gon</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gor</xmllang>
+      <iso6392>gor</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>got</xmllang>
+      <iso6392>got</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>grb</xmllang>
+      <iso6392>grb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>grc</xmllang>
+      <iso6392>grc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gn</xmllang>
+      <iso6392>grn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gsw</xmllang>
+      <iso6392>gsw</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gu</xmllang>
+      <iso6392>guj</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>gwi</xmllang>
+      <iso6392>gwi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hai</xmllang>
+      <iso6392>hai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ht</xmllang>
+      <iso6392>hat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ha</xmllang>
+      <iso6392>hau</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>haw</xmllang>
+      <iso6392>haw</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>he</xmllang>
+      <iso6392>heb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hz</xmllang>
+      <iso6392>her</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hil</xmllang>
+      <iso6392>hil</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>him</xmllang>
+      <iso6392>him</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hi</xmllang>
+      <iso6392>hin</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hit</xmllang>
+      <iso6392>hit</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hmn</xmllang>
+      <iso6392>hmn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ho</xmllang>
+      <iso6392>hmo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hr</xmllang>
+      <iso6392>hrv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hsb</xmllang>
+      <iso6392>hsb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hu</xmllang>
+      <iso6392>hun</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>hup</xmllang>
+      <iso6392>hup</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>iba</xmllang>
+      <iso6392>iba</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ig</xmllang>
+      <iso6392>ibo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>is</xmllang>
+      <iso6392>isl</iso6392>
+      <iso6392>ice</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>io</xmllang>
+      <iso6392>ido</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ii</xmllang>
+      <iso6392>iii</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ijo</xmllang>
+      <iso6392>ijo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>iu</xmllang>
+      <iso6392>iku</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ie</xmllang>
+      <iso6392>ile</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ilo</xmllang>
+      <iso6392>ilo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ia</xmllang>
+      <iso6392>ina</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>inc</xmllang>
+      <iso6392>inc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>id</xmllang>
+      <iso6392>ind</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ine</xmllang>
+      <iso6392>ine</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>inh</xmllang>
+      <iso6392>inh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ik</xmllang>
+      <iso6392>ipk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ira</xmllang>
+      <iso6392>ira</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>iro</xmllang>
+      <iso6392>iro</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>it</xmllang>
+      <iso6392>ita</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>jv</xmllang>
+      <iso6392>jav</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>jbo</xmllang>
+      <iso6392>jbo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ja</xmllang>
+      <iso6392>jpn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>jpr</xmllang>
+      <iso6392>jpr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>jrb</xmllang>
+      <iso6392>jrb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kaa</xmllang>
+      <iso6392>kaa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kab</xmllang>
+      <iso6392>kab</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kac</xmllang>
+      <iso6392>kac</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kl</xmllang>
+      <iso6392>kal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kam</xmllang>
+      <iso6392>kam</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kn</xmllang>
+      <iso6392>kan</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kar</xmllang>
+      <iso6392>kar</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ks</xmllang>
+      <iso6392>kas</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kr</xmllang>
+      <iso6392>kau</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kaw</xmllang>
+      <iso6392>kaw</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kk</xmllang>
+      <iso6392>kaz</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kbd</xmllang>
+      <iso6392>kbd</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kha</xmllang>
+      <iso6392>kha</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>khi</xmllang>
+      <iso6392>khi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>km</xmllang>
+      <iso6392>khm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kho</xmllang>
+      <iso6392>kho</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ki</xmllang>
+      <iso6392>kik</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rw</xmllang>
+      <iso6392>kin</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ky</xmllang>
+      <iso6392>kir</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kmb</xmllang>
+      <iso6392>kmb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kok</xmllang>
+      <iso6392>kok</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kv</xmllang>
+      <iso6392>kom</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kg</xmllang>
+      <iso6392>kon</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ko</xmllang>
+      <iso6392>kor</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kos</xmllang>
+      <iso6392>kos</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kpe</xmllang>
+      <iso6392>kpe</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>krc</xmllang>
+      <iso6392>krc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>krl</xmllang>
+      <iso6392>krl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kro</xmllang>
+      <iso6392>kro</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kru</xmllang>
+      <iso6392>kru</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kj</xmllang>
+      <iso6392>kua</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kum</xmllang>
+      <iso6392>kum</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ku</xmllang>
+      <iso6392>kur</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>kut</xmllang>
+      <iso6392>kut</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lad</xmllang>
+      <iso6392>lad</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lah</xmllang>
+      <iso6392>lah</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lam</xmllang>
+      <iso6392>lam</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lo</xmllang>
+      <iso6392>lao</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>la</xmllang>
+      <iso6392>lat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lv</xmllang>
+      <iso6392>lav</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lez</xmllang>
+      <iso6392>lez</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>li</xmllang>
+      <iso6392>lim</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ln</xmllang>
+      <iso6392>lin</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lt</xmllang>
+      <iso6392>lit</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lol</xmllang>
+      <iso6392>lol</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>loz</xmllang>
+      <iso6392>loz</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lb</xmllang>
+      <iso6392>ltz</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lua</xmllang>
+      <iso6392>lua</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lu</xmllang>
+      <iso6392>lub</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lg</xmllang>
+      <iso6392>lug</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lui</xmllang>
+      <iso6392>lui</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lun</xmllang>
+      <iso6392>lun</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>luo</xmllang>
+      <iso6392>luo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>lus</xmllang>
+      <iso6392>lus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mk</xmllang>
+      <iso6392>mkd</iso6392>
+      <iso6392>mac</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mad</xmllang>
+      <iso6392>mad</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mag</xmllang>
+      <iso6392>mag</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mh</xmllang>
+      <iso6392>mah</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mai</xmllang>
+      <iso6392>mai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mak</xmllang>
+      <iso6392>mak</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ml</xmllang>
+      <iso6392>mal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>man</xmllang>
+      <iso6392>man</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mi</xmllang>
+      <iso6392>mri</iso6392>
+      <iso6392>mao</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>map</xmllang>
+      <iso6392>map</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mr</xmllang>
+      <iso6392>mar</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mas</xmllang>
+      <iso6392>mas</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ms</xmllang>
+      <iso6392>msa</iso6392>
+      <iso6392>may</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mdf</xmllang>
+      <iso6392>mdf</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mdr</xmllang>
+      <iso6392>mdr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>men</xmllang>
+      <iso6392>men</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mga</xmllang>
+      <iso6392>mga</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mic</xmllang>
+      <iso6392>mic</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>min</xmllang>
+      <iso6392>min</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mis</xmllang>
+      <iso6392>mis</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mkh</xmllang>
+      <iso6392>mkh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mg</xmllang>
+      <iso6392>mlg</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mt</xmllang>
+      <iso6392>mlt</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mnc</xmllang>
+      <iso6392>mnc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mni</xmllang>
+      <iso6392>mni</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mno</xmllang>
+      <iso6392>mno</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>moh</xmllang>
+      <iso6392>moh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mn</xmllang>
+      <iso6392>mon</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mos</xmllang>
+      <iso6392>mos</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mul</xmllang>
+      <iso6392>mul</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mun</xmllang>
+      <iso6392>mun</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mus</xmllang>
+      <iso6392>mus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mwl</xmllang>
+      <iso6392>mwl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>mwr</xmllang>
+      <iso6392>mwr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>myn</xmllang>
+      <iso6392>myn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>myv</xmllang>
+      <iso6392>myv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nah</xmllang>
+      <iso6392>nah</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nai</xmllang>
+      <iso6392>nai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nap</xmllang>
+      <iso6392>nap</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>na</xmllang>
+      <iso6392>nau</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nv</xmllang>
+      <iso6392>nav</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nr</xmllang>
+      <iso6392>nbl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nd</xmllang>
+      <iso6392>nde</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ng</xmllang>
+      <iso6392>ndo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nds</xmllang>
+      <iso6392>nds</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ne</xmllang>
+      <iso6392>nep</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>new</xmllang>
+      <iso6392>new</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nia</xmllang>
+      <iso6392>nia</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nic</xmllang>
+      <iso6392>nic</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>niu</xmllang>
+      <iso6392>niu</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nn</xmllang>
+      <iso6392>nno</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nb</xmllang>
+      <iso6392>nob</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nog</xmllang>
+      <iso6392>nog</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>non</xmllang>
+      <iso6392>non</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>no</xmllang>
+      <iso6392>nor</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nqo</xmllang>
+      <iso6392>nqo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nso</xmllang>
+      <iso6392>nso</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nub</xmllang>
+      <iso6392>nub</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nwc</xmllang>
+      <iso6392>nwc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ny</xmllang>
+      <iso6392>nya</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nym</xmllang>
+      <iso6392>nym</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nyn</xmllang>
+      <iso6392>nyn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nyo</xmllang>
+      <iso6392>nyo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>nzi</xmllang>
+      <iso6392>nzi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>oc</xmllang>
+      <iso6392>oci</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>oj</xmllang>
+      <iso6392>oji</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>or</xmllang>
+      <iso6392>ori</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>om</xmllang>
+      <iso6392>orm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>osa</xmllang>
+      <iso6392>osa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>os</xmllang>
+      <iso6392>oss</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ota</xmllang>
+      <iso6392>ota</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>oto</xmllang>
+      <iso6392>oto</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>paa</xmllang>
+      <iso6392>paa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pag</xmllang>
+      <iso6392>pag</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pal</xmllang>
+      <iso6392>pal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pam</xmllang>
+      <iso6392>pam</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pa</xmllang>
+      <iso6392>pan</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pap</xmllang>
+      <iso6392>pap</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pau</xmllang>
+      <iso6392>pau</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>peo</xmllang>
+      <iso6392>peo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>phi</xmllang>
+      <iso6392>phi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>phn</xmllang>
+      <iso6392>phn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pi</xmllang>
+      <iso6392>pli</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pl</xmllang>
+      <iso6392>pol</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pon</xmllang>
+      <iso6392>pon</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pt</xmllang>
+      <iso6392>por</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pra</xmllang>
+      <iso6392>pra</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>pro</xmllang>
+      <iso6392>pro</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ps</xmllang>
+      <iso6392>pus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>qaa-qtz</xmllang>
+      <iso6392>qaa-qtz</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>qu</xmllang>
+      <iso6392>que</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>raj</xmllang>
+      <iso6392>raj</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rap</xmllang>
+      <iso6392>rap</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rar</xmllang>
+      <iso6392>rar</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>roa</xmllang>
+      <iso6392>roa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rm</xmllang>
+      <iso6392>roh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rom</xmllang>
+      <iso6392>rom</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ro</xmllang>
+      <iso6392>ron</iso6392>
+      <iso6392>rum</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rn</xmllang>
+      <iso6392>run</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>rup</xmllang>
+      <iso6392>rup</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ru</xmllang>
+      <iso6392>rus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sad</xmllang>
+      <iso6392>sad</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sg</xmllang>
+      <iso6392>sag</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sah</xmllang>
+      <iso6392>sah</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sai</xmllang>
+      <iso6392>sai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sal</xmllang>
+      <iso6392>sal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sam</xmllang>
+      <iso6392>sam</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sa</xmllang>
+      <iso6392>san</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sas</xmllang>
+      <iso6392>sas</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sat</xmllang>
+      <iso6392>sat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>scn</xmllang>
+      <iso6392>scn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sco</xmllang>
+      <iso6392>sco</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sel</xmllang>
+      <iso6392>sel</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sem</xmllang>
+      <iso6392>sem</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sga</xmllang>
+      <iso6392>sga</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sgn</xmllang>
+      <iso6392>sgn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>shn</xmllang>
+      <iso6392>shn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sid</xmllang>
+      <iso6392>sid</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>si</xmllang>
+      <iso6392>sin</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sio</xmllang>
+      <iso6392>sio</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sit</xmllang>
+      <iso6392>sit</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sla</xmllang>
+      <iso6392>sla</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sk</xmllang>
+      <iso6392>slk</iso6392>
+      <iso6392>slo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sl</xmllang>
+      <iso6392>slv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sma</xmllang>
+      <iso6392>sma</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>se</xmllang>
+      <iso6392>sme</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>smi</xmllang>
+      <iso6392>smi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>smj</xmllang>
+      <iso6392>smj</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>smn</xmllang>
+      <iso6392>smn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sm</xmllang>
+      <iso6392>smo</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sms</xmllang>
+      <iso6392>sms</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sn</xmllang>
+      <iso6392>sna</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sd</xmllang>
+      <iso6392>snd</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>snk</xmllang>
+      <iso6392>snk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sog</xmllang>
+      <iso6392>sog</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>so</xmllang>
+      <iso6392>som</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>son</xmllang>
+      <iso6392>son</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>st</xmllang>
+      <iso6392>sot</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>es</xmllang>
+      <iso6392>spa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sc</xmllang>
+      <iso6392>srd</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>srn</xmllang>
+      <iso6392>srn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sr</xmllang>
+      <iso6392>srp</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>srr</xmllang>
+      <iso6392>srr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ssa</xmllang>
+      <iso6392>ssa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ss</xmllang>
+      <iso6392>ssw</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>suk</xmllang>
+      <iso6392>suk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>su</xmllang>
+      <iso6392>sun</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sus</xmllang>
+      <iso6392>sus</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sux</xmllang>
+      <iso6392>sux</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sw</xmllang>
+      <iso6392>swa</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>sv</xmllang>
+      <iso6392>swe</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>syc</xmllang>
+      <iso6392>syc</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>syr</xmllang>
+      <iso6392>syr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ty</xmllang>
+      <iso6392>tah</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tai</xmllang>
+      <iso6392>tai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ta</xmllang>
+      <iso6392>tam</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tt</xmllang>
+      <iso6392>tat</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>te</xmllang>
+      <iso6392>tel</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tem</xmllang>
+      <iso6392>tem</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ter</xmllang>
+      <iso6392>ter</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tet</xmllang>
+      <iso6392>tet</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tg</xmllang>
+      <iso6392>tgk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tl</xmllang>
+      <iso6392>tgl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>th</xmllang>
+      <iso6392>tha</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tig</xmllang>
+      <iso6392>tig</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ti</xmllang>
+      <iso6392>tir</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tiv</xmllang>
+      <iso6392>tiv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tkl</xmllang>
+      <iso6392>tkl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tlh</xmllang>
+      <iso6392>tlh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tli</xmllang>
+      <iso6392>tli</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tmh</xmllang>
+      <iso6392>tmh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tog</xmllang>
+      <iso6392>tog</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>to</xmllang>
+      <iso6392>ton</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tpi</xmllang>
+      <iso6392>tpi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tsi</xmllang>
+      <iso6392>tsi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tn</xmllang>
+      <iso6392>tsn</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ts</xmllang>
+      <iso6392>tso</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tk</xmllang>
+      <iso6392>tuk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tum</xmllang>
+      <iso6392>tum</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tup</xmllang>
+      <iso6392>tup</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tr</xmllang>
+      <iso6392>tur</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tut</xmllang>
+      <iso6392>tut</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tvl</xmllang>
+      <iso6392>tvl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tw</xmllang>
+      <iso6392>twi</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>tyv</xmllang>
+      <iso6392>tyv</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>udm</xmllang>
+      <iso6392>udm</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>uga</xmllang>
+      <iso6392>uga</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ug</xmllang>
+      <iso6392>uig</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>uk</xmllang>
+      <iso6392>ukr</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>umb</xmllang>
+      <iso6392>umb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>und</xmllang>
+      <iso6392>und</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ur</xmllang>
+      <iso6392>urd</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>uz</xmllang>
+      <iso6392>uzb</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>vai</xmllang>
+      <iso6392>vai</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ve</xmllang>
+      <iso6392>ven</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>vi</xmllang>
+      <iso6392>vie</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>vo</xmllang>
+      <iso6392>vol</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>vot</xmllang>
+      <iso6392>vot</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>wak</xmllang>
+      <iso6392>wak</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>wal</xmllang>
+      <iso6392>wal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>war</xmllang>
+      <iso6392>war</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>was</xmllang>
+      <iso6392>was</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>wen</xmllang>
+      <iso6392>wen</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>wa</xmllang>
+      <iso6392>wln</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>wo</xmllang>
+      <iso6392>wol</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>xal</xmllang>
+      <iso6392>xal</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>xh</xmllang>
+      <iso6392>xho</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>yao</xmllang>
+      <iso6392>yao</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>yap</xmllang>
+      <iso6392>yap</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>yi</xmllang>
+      <iso6392>yid</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>yo</xmllang>
+      <iso6392>yor</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>ypk</xmllang>
+      <iso6392>ypk</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zap</xmllang>
+      <iso6392>zap</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zbl</xmllang>
+      <iso6392>zbl</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zen</xmllang>
+      <iso6392>zen</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zgh</xmllang>
+      <iso6392>zgh</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>za</xmllang>
+      <iso6392>zha</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>znd</xmllang>
+      <iso6392>znd</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zu</xmllang>
+      <iso6392>zul</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zun</xmllang>
+      <iso6392>zun</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zxx</xmllang>
+      <iso6392>zxx</iso6392>
+    </language>
+    <language xmlns:bf2marc="http://www.loc.gov/bf2marc">
+      <xmllang>zza</xmllang>
+      <iso6392>zza</iso6392>
+    </language>
+  </xsl:variable>
   <xsl:template match="/">
     <xsl:choose>
       <xsl:when test="rdf:RDF">
@@ -808,31 +2774,22 @@
         <xsl:text> a22     </xsl:text>
         <xsl:variable name="vPosition-6">
           <xsl:choose>
-            <xsl:when test="$vAdminMetadata/bflc:encodingLevel[@rdf:resource] or                       $vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel[@rdf:about]">
-              <xsl:for-each select="$vAdminMetadata/bflc:encodingLevel/@rdf:resource |                            $vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel/@rdf:about">
+            <xsl:when test="$vAdminMetadata/bflc:encodingLevel[@rdf:resource] or                       $vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel[@rdf:about] or                        $vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel[bf:code]">
+              <xsl:for-each select="$vAdminMetadata/bflc:encodingLevel/@rdf:resource |                            $vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel/@rdf:about |                             $vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel/bf:code">
                 <xsl:choose>
                   <xsl:when test="position() = 1">
-                    <xsl:variable name="vLdr17" select="substring(.,string-length(.),1)"/>
+                    <xsl:variable name="vLdr17" select="substring(.,string-length(.))"/>
                     <xsl:choose>
                       <xsl:when test="$vLdr17='f'">
-                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="' '"/>
                       </xsl:when>
-                      <xsl:otherwise>
+                      <xsl:when test="$vLdr17!=''">
                         <xsl:value-of select="$vLdr17"/>
-                      </xsl:otherwise>
+                      </xsl:when>
+                      <xsl:when test="$vLdr17=''">
+                        <xsl:value-of select="' '"/>
+                      </xsl:when>
                     </xsl:choose>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element LDR.</xsl:message>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:for-each>
-            </xsl:when>
-            <xsl:when test="string-length($vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel/bf:code) = 1">
-              <xsl:for-each select="$vAdminMetadata/bflc:encodingLevel/bflc:EncodingLevel/bf:code">
-                <xsl:choose>
-                  <xsl:when test="position() = 1">
-                    <xsl:value-of select="."/>
                   </xsl:when>
                   <xsl:otherwise>
                     <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element LDR.</xsl:message>
@@ -847,7 +2804,7 @@
             <xsl:value-of select="$vPosition-6"/>
           </xsl:when>
           <xsl:otherwise>
-            <xsl:text>u</xsl:text>
+            <xsl:text> </xsl:text>
           </xsl:otherwise>
         </xsl:choose>
         <xsl:text>c 4500</xsl:text>
@@ -3762,7 +5719,7 @@
         <xsl:with-param name="vRecordId" select="$vRecordId"/>
         <xsl:with-param name="vAdminMetadata" select="$vAdminMetadata"/>
       </xsl:apply-templates>
-      <xsl:apply-templates select="bf:Instance/bf:musicFormat/bf:MusicFormat" mode="generate-348">
+      <xsl:apply-templates select="bf:Instance/bf:musicFormat/bf:MusicFormat | bf:Instance/bf:notation/bf:MusicNotation" mode="generate-348">
         <xsl:with-param name="vRecordId" select="$vRecordId"/>
         <xsl:with-param name="vAdminMetadata" select="$vAdminMetadata"/>
       </xsl:apply-templates>
@@ -4047,8 +6004,11 @@
               <xsl:attribute name="ind1">
                 <xsl:variable name="vInd">
                   <xsl:choose>
-                    <xsl:when test="rdf:type/@rdf:resource='http://id.loc.gov/ontologies/bflc/Uncontrolled'">
-                      <xsl:text>0</xsl:text>
+                    <xsl:when test="../../../../bflc:relationship/bflc:Relationship[bflc:relation/bflc:Relation/@rdf:about='http://id.loc.gov/ontologies/bibframe/hasSeries']/bf:relatedTo/bf:Hub[not(rdf:type/@rdf:resource='http://id.loc.gov/ontologies/bflc/Uncontrolled')]">
+                      <xsl:text>1</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="../../../../bflc:relationship/bflc:Relationship[bflc:relation/bflc:Relation/@rdf:about='http://id.loc.gov/ontologies/bibframe/hasSeries']/bf:relatedTo/bf:Series[not(rdf:type/@rdf:resource='http://id.loc.gov/ontologies/bflc/Uncontrolled')]">
+                      <xsl:text>1</xsl:text>
                     </xsl:when>
                   </xsl:choose>
                 </xsl:variable>
@@ -4057,7 +6017,7 @@
                     <xsl:value-of select="$vInd"/>
                   </xsl:when>
                   <xsl:otherwise>
-                    <xsl:text>1</xsl:text>
+                    <xsl:text>0</xsl:text>
                   </xsl:otherwise>
                 </xsl:choose>
               </xsl:attribute>
@@ -4096,33 +6056,40 @@
                   </xsl:when>
                 </xsl:choose>
               </xsl:variable>
-              <xsl:variable name="v490-a">
-                <xsl:choose>
-                  <xsl:when test="$vMainTitle != '' and $vParallelTitle != ''">
+              <xsl:choose>
+                <xsl:when test="$vMainTitle != '' and $vParallelTitle != ''">
+                  <xsl:variable name="v490-a">
                     <xsl:value-of select="concat($vMainTitle, ' =')"/>
-                  </xsl:when>
-                  <xsl:when test="$vMainTitle != ''">
+                  </xsl:variable>
+                  <xsl:if test="$v490-a != ''">
+                    <marc:subfield code="a">
+                      <xsl:value-of select="$v490-a"/>
+                    </marc:subfield>
+                  </xsl:if>
+                </xsl:when>
+                <xsl:when test="$vMainTitle != ''">
+                  <xsl:variable name="v490-a">
                     <xsl:value-of select="$vMainTitle"/>
-                  </xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="$v490-a != ''">
-                <marc:subfield code="a">
-                  <xsl:value-of select="$v490-a"/>
-                </marc:subfield>
-              </xsl:if>
-              <xsl:variable name="v490-a">
-                <xsl:choose>
-                  <xsl:when test="$vParallelTitle != ''">
+                  </xsl:variable>
+                  <xsl:if test="$v490-a != ''">
+                    <marc:subfield code="a">
+                      <xsl:value-of select="$v490-a"/>
+                    </marc:subfield>
+                  </xsl:if>
+                </xsl:when>
+              </xsl:choose>
+              <xsl:choose>
+                <xsl:when test="$vParallelTitle != ''">
+                  <xsl:variable name="v490-a">
                     <xsl:value-of select="$vParallelTitle"/>
-                  </xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:if test="$v490-a != ''">
-                <marc:subfield code="a">
-                  <xsl:value-of select="$v490-a"/>
-                </marc:subfield>
-              </xsl:if>
+                  </xsl:variable>
+                  <xsl:if test="$v490-a != ''">
+                    <marc:subfield code="a">
+                      <xsl:value-of select="$v490-a"/>
+                    </marc:subfield>
+                  </xsl:if>
+                </xsl:when>
+              </xsl:choose>
               <xsl:for-each select="bf:identifiedBy/*[local-name()='Issn' or rdf:type/@rdf:resource='http://id.loc.gov/ontologies/bibframe/Issn']/rdf:value">
                 <marc:subfield code="x">
                   <xsl:value-of select="."/>
@@ -5110,6 +7077,7 @@
               </xsl:for-each>
             </marc:datafield>
           </xsl:when>
+          <xsl:when test="(local-name(../..)='Work' and          (           translate(bf:noteType,$upper,$lower)='language' or            rdf:type/@rdf:resource='http://id.loc.gov/vocabulary/mnotetype/lang'         ))"/>
           <xsl:when test="(local-name(../..)='Instance' or local-name(../..)='Item') and                    (                     (translate(bf:noteType,$upper,$lower)='physical details' or translate(bf:noteType,$upper,$lower)='accompanying material') or                      (rdf:type/@rdf:resource='http://id.loc.gov/vocabulary/mnotetype/physical' or rdf:type/@rdf:resource='http://id.loc.gov/vocabulary/mnotetype/accmat')                   )"/>
           <xsl:otherwise>
             <xsl:variable name="vXmlLang">
@@ -5406,7 +7374,7 @@
         <xsl:with-param name="vRecordId" select="$vRecordId"/>
         <xsl:with-param name="vAdminMetadata" select="$vAdminMetadata"/>
       </xsl:apply-templates>
-      <xsl:apply-templates select="bf:Work/bf:language/bf:Language[bf:note/bf:Note/rdfs:label]" mode="generate-546">
+      <xsl:apply-templates select="bf:Work/bf:note/bf:Note[rdf:type/@rdf:resource = 'http://id.loc.gov/vocabulary/mnotetype/lang']" mode="generate-546">
         <xsl:with-param name="vRecordId" select="$vRecordId"/>
         <xsl:with-param name="vAdminMetadata" select="$vAdminMetadata"/>
       </xsl:apply-templates>
@@ -6052,7 +8020,7 @@
                       </xsl:otherwise>
                     </xsl:choose>
                   </xsl:for-each>
-                  <xsl:for-each select="*[local-name()='CorporateName' or rdf:type[@rdf:resource='http://www.loc.gov/mads/rdf/v1#CorporateName'] or local-name()='Organization' or rdf:type[@rdf:resource='http://id.loc.gov/ontologies/bibframe/Organization'] or local-name()='Jurisdiction' or rdf:type[@rdf:resource='http://id.loc.gov/ontologies/bibframe/Jurisdiction']] |                              */madsrdf:componentList/*[1] |                              bf:Hub/bf:contribution/*/bf:agent/* |                              */madsrdf:componentList/*[1]/bf:Hub/bf:contribution/*/bf:agent/*">
+                  <xsl:for-each select="*[local-name()='CorporateName' or rdf:type[@rdf:resource='http://www.loc.gov/mads/rdf/v1#CorporateName'] or local-name()='Organization' or rdf:type[@rdf:resource='http://id.loc.gov/ontologies/bibframe/Organization'] or local-name()='Jurisdiction' or rdf:type[@rdf:resource='http://id.loc.gov/ontologies/bibframe/Jurisdiction']] |                              */madsrdf:componentList/*[1] |                              bf:Hub/bf:contribution/*/bf:agent/* |                              */bf:contribution/*/bf:agent/* |                              */madsrdf:componentList/*[1]/bf:Hub/bf:contribution/*/bf:agent/*">
                     <xsl:variable name="vNameAuth">
                       <xsl:choose>
                         <xsl:when test="contains(@rdf:about,'id.loc.gov/authorities/names')">
@@ -6204,99 +8172,198 @@
                       </marc:subfield>
                     </xsl:for-each>
                   </xsl:for-each>
-                  <xsl:for-each select="bf:Hub">
-                    <xsl:for-each select="bf:title/bf:Title/bf:mainTitle">
-                      <xsl:choose>
-                        <xsl:when test="position() = 1">
-                          <marc:subfield code="t">
+                  <xsl:choose>
+                    <xsl:when test="bf:Hub">
+                      <xsl:for-each select="bf:Hub">
+                        <xsl:for-each select="bf:title/bf:Title/bf:mainTitle">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="t">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $t.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:legalDate">
+                          <marc:subfield code="d">
                             <xsl:call-template name="tChopPunct">
                               <xsl:with-param name="pString" select="."/>
                             </xsl:call-template>
                           </marc:subfield>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $t.</xsl:message>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:legalDate">
-                      <marc:subfield code="d">
-                        <xsl:call-template name="tChopPunct">
-                          <xsl:with-param name="pString" select="."/>
-                        </xsl:call-template>
-                      </marc:subfield>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:originDate">
-                      <xsl:choose>
-                        <xsl:when test="position() = 1">
-                          <marc:subfield code="f">
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:originDate">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="f">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $f.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:language/*/rdfs:label|bf:language/*/madsrdf:authoritativeLabel">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="l">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $l.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:musicMedium/bf:MusicMedium/rdfs:label">
+                          <marc:subfield code="m">
                             <xsl:call-template name="tChopPunct">
                               <xsl:with-param name="pString" select="."/>
                             </xsl:call-template>
                           </marc:subfield>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $f.</xsl:message>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:language/*/rdfs:label|bf:language/*/madsrdf:authoritativeLabel">
-                      <xsl:choose>
-                        <xsl:when test="position() = 1">
-                          <marc:subfield code="l">
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:title/bf:Title[not(contains(rdf:type/@rdf:resource,'bibframe'))][1]/bf:partNumber">
+                          <marc:subfield code="n">
                             <xsl:call-template name="tChopPunct">
                               <xsl:with-param name="pString" select="."/>
                             </xsl:call-template>
                           </marc:subfield>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $l.</xsl:message>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:musicMedium/bf:MusicMedium/rdfs:label">
-                      <marc:subfield code="m">
-                        <xsl:call-template name="tChopPunct">
-                          <xsl:with-param name="pString" select="."/>
-                        </xsl:call-template>
-                      </marc:subfield>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:title/bf:Title[not(contains(rdf:type/@rdf:resource,'bibframe'))][1]/bf:partNumber">
-                      <marc:subfield code="n">
-                        <xsl:call-template name="tChopPunct">
-                          <xsl:with-param name="pString" select="."/>
-                        </xsl:call-template>
-                      </marc:subfield>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:title/bf:Title[not(contains(rdf:type/@rdf:resource,'bibframe'))][1]/bf:partName">
-                      <marc:subfield code="p">
-                        <xsl:call-template name="tChopPunct">
-                          <xsl:with-param name="pString" select="."/>
-                        </xsl:call-template>
-                      </marc:subfield>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:musicKey">
-                      <xsl:choose>
-                        <xsl:when test="position() = 1">
-                          <marc:subfield code="r">
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:title/bf:Title[not(contains(rdf:type/@rdf:resource,'bibframe'))][1]/bf:partName">
+                          <marc:subfield code="p">
                             <xsl:call-template name="tChopPunct">
                               <xsl:with-param name="pString" select="."/>
                             </xsl:call-template>
                           </marc:subfield>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $r.</xsl:message>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                    </xsl:for-each>
-                    <xsl:for-each select="bf:version">
-                      <marc:subfield code="s">
-                        <xsl:call-template name="tChopPunct">
-                          <xsl:with-param name="pString" select="."/>
-                        </xsl:call-template>
-                      </marc:subfield>
-                    </xsl:for-each>
-                  </xsl:for-each>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:musicKey">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="r">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $r.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:version">
+                          <marc:subfield code="s">
+                            <xsl:call-template name="tChopPunct">
+                              <xsl:with-param name="pString" select="."/>
+                            </xsl:call-template>
+                          </marc:subfield>
+                        </xsl:for-each>
+                      </xsl:for-each>
+                    </xsl:when>
+                    <xsl:when test="*/bf:title">
+                      <xsl:for-each select="*/bf:title/bf:Title">
+                        <xsl:for-each select="bf:mainTitle">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="t">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $t.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:legalDate">
+                          <marc:subfield code="d">
+                            <xsl:call-template name="tChopPunct">
+                              <xsl:with-param name="pString" select="."/>
+                            </xsl:call-template>
+                          </marc:subfield>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:originDate">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="f">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $f.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:language/*/rdfs:label|bf:language/*/madsrdf:authoritativeLabel">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="l">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $l.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:musicMedium/bf:MusicMedium/rdfs:label">
+                          <marc:subfield code="m">
+                            <xsl:call-template name="tChopPunct">
+                              <xsl:with-param name="pString" select="."/>
+                            </xsl:call-template>
+                          </marc:subfield>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:partNumber">
+                          <marc:subfield code="n">
+                            <xsl:call-template name="tChopPunct">
+                              <xsl:with-param name="pString" select="."/>
+                            </xsl:call-template>
+                          </marc:subfield>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:partName">
+                          <marc:subfield code="p">
+                            <xsl:call-template name="tChopPunct">
+                              <xsl:with-param name="pString" select="."/>
+                            </xsl:call-template>
+                          </marc:subfield>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:musicKey">
+                          <xsl:choose>
+                            <xsl:when test="position() = 1">
+                              <marc:subfield code="r">
+                                <xsl:call-template name="tChopPunct">
+                                  <xsl:with-param name="pString" select="."/>
+                                </xsl:call-template>
+                              </marc:subfield>
+                            </xsl:when>
+                            <xsl:otherwise>
+                              <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 610 $r.</xsl:message>
+                            </xsl:otherwise>
+                          </xsl:choose>
+                        </xsl:for-each>
+                        <xsl:for-each select="bf:version">
+                          <marc:subfield code="s">
+                            <xsl:call-template name="tChopPunct">
+                              <xsl:with-param name="pString" select="."/>
+                            </xsl:call-template>
+                          </marc:subfield>
+                        </xsl:for-each>
+                      </xsl:for-each>
+                    </xsl:when>
+                  </xsl:choose>
                   <xsl:for-each select="*/madsrdf:componentList/*">
                     <xsl:choose>
                       <xsl:when test="position() &gt; 1">
@@ -8994,7 +11061,7 @@
                   <xsl:attribute name="ind2">
                     <xsl:variable name="vInd">
                       <xsl:choose>
-                        <xsl:when test="*/bf:source/bf:Source/bf:code='lcsh' or                               */bf:source[@rdf:resource='http://id.loc.gov/authorities/subjects' or */@rdf:about='http://id.loc.gov/authorities/subjects'] or                               */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='lcsh'">
+                        <xsl:when test="*/bf:source/bf:Source/bf:code='lcsh' or                               */madsrdf:isMemberOfMADSScheme[@rdf:resource='http://id.loc.gov/authorities/subjects' or @rdf:resource='http://id.loc.gov/vocabulary/subjectSchemes/lcsh'] or                                */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/subjectSchemes/lcsh' or */@rdf:about='http://id.loc.gov/vocabulary/subjectSchemes/lcsh'] or                               */bf:source[@rdf:resource='http://id.loc.gov/authorities/subjects' or */@rdf:about='http://id.loc.gov/authorities/subjects'] or                               */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='lcsh'">
                           <xsl:text>0</xsl:text>
                         </xsl:when>
                         <xsl:when test="*/bf:source/bf:Source/bf:code='lcshac' or                               */bf:source[@rdf:resource='http://id.loc.gov/authorities/childrensSubjects' or */@rdf:about='http://id.loc.gov/authorities/childrensSubjects'] or                               */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='lcshac'">
@@ -9489,6 +11556,9 @@
                     <xsl:when test="*/bf:source/bf:Source/bf:code='rvm' or                       */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/subjectSchemes/rvm' or */@rdf:about='http://id.loc.gov/vocabulary/subjectSchemes/rvm'] or                       */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='rvm'">
                       <xsl:text>6</xsl:text>
                     </xsl:when>
+                    <xsl:when test="*/bf:source/bf:Source/bf:code='lcgft' or                       */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/genreFormSchemes/lcgft' or */@rdf:about='http://id.loc.gov/vocabulary/genreFormSchemes/lcgft'] or                       */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='lcgft'">
+                      <xsl:text>7</xsl:text>
+                    </xsl:when>
                     <xsl:when test="*/bf:source or */madsrdf:componentList/*[1]/bf:source">
                       <xsl:text>7</xsl:text>
                     </xsl:when>
@@ -9930,6 +12000,9 @@
                     </xsl:when>
                     <xsl:when test="*/bf:source/bf:Source/bf:code='rvm' or                       */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/subjectSchemes/rvm' or */@rdf:about='http://id.loc.gov/vocabulary/subjectSchemes/rvm'] or                       */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='rvm'">
                       <xsl:text>6</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="*/bf:source/bf:Source/bf:code='lcgft' or                       */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/genreFormSchemes/lcgft' or */@rdf:about='http://id.loc.gov/vocabulary/genreFormSchemes/lcgft'] or                       */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='lcgft'">
+                      <xsl:text>7</xsl:text>
                     </xsl:when>
                     <xsl:when test="*/bf:source or */madsrdf:componentList/*[1]/bf:source">
                       <xsl:text>7</xsl:text>
@@ -14785,7 +16858,7 @@
                 <xsl:value-of select="translate(concat('p', $date1, $date2), 'X', 'u')"/>
               </xsl:when>
               <xsl:when test="               bf:Instance/bf:provisionActivity/bf:ProvisionActivity[rdf:type/@rdf:resource = 'http://id.loc.gov/ontologies/bibframe/Production']/bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf'                or                bf:Instance/bf:provisionActivity/bf:Production/bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf'               ">
-                <xsl:variable name="vPA">
+                <xsl:variable name="vPAprenodeset">
                   <xsl:choose>
                     <xsl:when test="bf:Instance/bf:provisionActivity/bf:Production/bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf'">
                       <xsl:copy-of select="bf:Instance/bf:provisionActivity/bf:Production[bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf']"/>
@@ -14795,6 +16868,7 @@
                     </xsl:otherwise>
                   </xsl:choose>
                 </xsl:variable>
+                <xsl:variable name="vPA" select="exsl:node-set($vPAprenodeset)"/>
                 <xsl:variable name="date1">
                   <xsl:value-of select="$vPA/bf:*/bf:date[@rdf:datatype = 'http://id.loc.gov/datatypes/edtf']"/>
                 </xsl:variable>
@@ -14808,7 +16882,7 @@
                 </xsl:choose>
               </xsl:when>
               <xsl:when test="               bf:Instance/bf:provisionActivity/bf:ProvisionActivity[rdf:type/@rdf:resource = 'http://id.loc.gov/ontologies/bibframe/Publication']/bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf'               or               bf:Instance/bf:provisionActivity/bf:Publication/bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf'               ">
-                <xsl:variable name="vPA">
+                <xsl:variable name="vPAprenodeset">
                   <xsl:choose>
                     <xsl:when test="bf:Instance/bf:provisionActivity/bf:Publication/bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf'">
                       <xsl:copy-of select="bf:Instance/bf:provisionActivity/bf:Publication[bf:date/@rdf:datatype = 'http://id.loc.gov/datatypes/edtf']"/>
@@ -14818,6 +16892,7 @@
                     </xsl:otherwise>
                   </xsl:choose>
                 </xsl:variable>
+                <xsl:variable name="vPA" select="exsl:node-set($vPAprenodeset)"/>
                 <xsl:variable name="theDate">
                   <xsl:value-of select="$vPA/bf:*/bf:date[@rdf:datatype = 'http://id.loc.gov/datatypes/edtf']"/>
                 </xsl:variable>
@@ -17300,6 +19375,28 @@
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
+    <xsl:variable name="vAuri">
+      <xsl:choose>
+        <xsl:when test="@rdf:resource">
+          <xsl:value-of select="@rdf:resource"/>
+        </xsl:when>
+        <xsl:when test="*/@rdf:about">
+          <xsl:value-of select="*/@rdf:about"/>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:variable name="vAcode">
+      <xsl:choose>
+        <xsl:when test="*/*[local-name()='code']">
+          <xsl:value-of select="*/*[local-name()='code']"/>
+        </xsl:when>
+        <xsl:when test="$vAuri != '' and contains($vAuri,'id.loc.gov')">
+          <xsl:call-template name="tUriCode">
+            <xsl:with-param name="pUri" select="$vAuri"/>
+          </xsl:call-template>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:choose>
       <xsl:when test="position() = 1">
         <marc:datafield>
@@ -17310,18 +19407,28 @@
           <xsl:attribute name="ind2">
             <xsl:text> </xsl:text>
           </xsl:attribute>
-          <xsl:for-each select="*/*[local-name()='code']">
-            <xsl:choose>
-              <xsl:when test="position() = 1">
+          <xsl:choose>
+            <xsl:when test="$vAcode = 'dlc'">
+              <xsl:variable name="v040-a">
+                <xsl:value-of select="translate($vAcode,$lower,$upper)"/>
+              </xsl:variable>
+              <xsl:if test="$v040-a != ''">
                 <marc:subfield code="a">
-                  <xsl:value-of select="."/>
+                  <xsl:value-of select="$v040-a"/>
                 </marc:subfield>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 040 $a.</xsl:message>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:for-each>
+              </xsl:if>
+            </xsl:when>
+            <xsl:when test="$vAcode != ''">
+              <xsl:variable name="v040-a">
+                <xsl:value-of select="$vAcode"/>
+              </xsl:variable>
+              <xsl:if test="$v040-a != ''">
+                <marc:subfield code="a">
+                  <xsl:value-of select="$v040-a"/>
+                </marc:subfield>
+              </xsl:if>
+            </xsl:when>
+          </xsl:choose>
           <xsl:choose>
             <xsl:when test="$vLanguageUri != '' and contains($vLanguageUri,'id.loc.gov')">
               <xsl:variable name="v040-b">
@@ -17346,57 +19453,7 @@
               </xsl:if>
             </xsl:when>
           </xsl:choose>
-          <xsl:for-each select="*/*[local-name()='code']">
-            <xsl:choose>
-              <xsl:when test="position() = 1">
-                <marc:subfield code="c">
-                  <xsl:value-of select="."/>
-                </marc:subfield>
-              </xsl:when>
-              <xsl:otherwise>
-                <xsl:message>Record <xsl:value-of select="$vRecordId"/>: Unprocessed node <xsl:value-of select="name()"/>. Non-repeatable target element 040 $c.</xsl:message>
-              </xsl:otherwise>
-            </xsl:choose>
-          </xsl:for-each>
-          <xsl:choose>
-            <xsl:when test="count(../bf:descriptionModifier) &gt; 0">
-              <xsl:variable name="vLastAgentUri">
-                <xsl:choose>
-                  <xsl:when test="../bf:descriptionModifier[count(../bf:descriptionModifier)]/@rdf:resource">
-                    <xsl:value-of select="../bf:descriptionModifier[count(../bf:descriptionModifier)]/@rdf:resource"/>
-                  </xsl:when>
-                  <xsl:when test="../bf:descriptionModifier[count(../bf:descriptionModifier)]/*/@rdf:about">
-                    <xsl:value-of select="../bf:descriptionModifier[count(../bf:descriptionModifier)]/*/@rdf:about"/>
-                  </xsl:when>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:variable name="vModifierCode">
-                <xsl:choose>
-                  <xsl:when test="$vLastAgentUri != '' and contains($vLastAgentUri,'id.loc.gov')">
-                    <xsl:call-template name="tUriCode">
-                      <xsl:with-param name="pUri" select="$vLastAgentUri"/>
-                    </xsl:call-template>
-                  </xsl:when>
-                  <xsl:otherwise>
-                    <xsl:value-of select="../bf:descriptionModifier[count(../bf:descriptionModifier)]/*/*[local-name()='code']"/>
-                  </xsl:otherwise>
-                </xsl:choose>
-              </xsl:variable>
-              <xsl:choose>
-                <xsl:when test="$vModifierCode != ''">
-                  <xsl:variable name="v040-d">
-                    <xsl:value-of select="$vModifierCode"/>
-                  </xsl:variable>
-                  <xsl:if test="$v040-d != ''">
-                    <marc:subfield code="d">
-                      <xsl:value-of select="$v040-d"/>
-                    </marc:subfield>
-                  </xsl:if>
-                </xsl:when>
-              </xsl:choose>
-            </xsl:when>
-          </xsl:choose>
-          <xsl:for-each select="../bf:descriptionConventions[not(contains(@rdf:resource,'isbd')) and                                                     not(contains(*/@rdf:about,'isbd')) and                                                     not(*/rdf:value='isbd') and                                                     not(*/*[local-name()='code']='isbd') and                                                     not(*/rdfs:label='isbd')]">
+          <xsl:for-each select="../bf:descriptionConventions[not(contains(@rdf:resource,'isbd')) and                                                     not(contains(*/@rdf:about,'isbd')) and                                                     not(*/rdf:value='isbd') and                                                     not(*/*[local-name()='code']='isbd') and                                                     not(*/rdfs:label='isbd') and                                                     not(contains(@rdf:resource,'aacr')) and                                                     not(contains(*/@rdf:about,'aacr')) and                                                     not(*/rdf:value='aacr') and                                                     not(*/*[local-name()='code']='aacr') and                                                     not(*/rdfs:label='aacr')]">
             <marc:subfield code="e">
               <xsl:variable name="vConvUri">
                 <xsl:choose>
@@ -17426,6 +19483,76 @@
               </xsl:choose>
             </marc:subfield>
           </xsl:for-each>
+          <xsl:choose>
+            <xsl:when test="$vAcode = 'dlc'">
+              <xsl:variable name="v040-c">
+                <xsl:value-of select="translate($vAcode,$lower,$upper)"/>
+              </xsl:variable>
+              <xsl:if test="$v040-c != ''">
+                <marc:subfield code="c">
+                  <xsl:value-of select="$v040-c"/>
+                </marc:subfield>
+              </xsl:if>
+            </xsl:when>
+            <xsl:when test="$vAcode != ''">
+              <xsl:variable name="v040-c">
+                <xsl:value-of select="$vAcode"/>
+              </xsl:variable>
+              <xsl:if test="$v040-c != ''">
+                <marc:subfield code="c">
+                  <xsl:value-of select="$v040-c"/>
+                </marc:subfield>
+              </xsl:if>
+            </xsl:when>
+          </xsl:choose>
+          <xsl:choose>
+            <xsl:when test="count(../bf:descriptionModifier) &gt; 0">
+              <xsl:variable name="vLastAgentUri">
+                <xsl:choose>
+                  <xsl:when test="../bf:descriptionModifier[count(../bf:descriptionModifier)]/@rdf:resource">
+                    <xsl:value-of select="../bf:descriptionModifier[count(../bf:descriptionModifier)]/@rdf:resource"/>
+                  </xsl:when>
+                  <xsl:when test="../bf:descriptionModifier[count(../bf:descriptionModifier)]/*/@rdf:about">
+                    <xsl:value-of select="../bf:descriptionModifier[count(../bf:descriptionModifier)]/*/@rdf:about"/>
+                  </xsl:when>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:variable name="vModifierCode">
+                <xsl:choose>
+                  <xsl:when test="$vLastAgentUri != '' and contains($vLastAgentUri,'id.loc.gov')">
+                    <xsl:call-template name="tUriCode">
+                      <xsl:with-param name="pUri" select="$vLastAgentUri"/>
+                    </xsl:call-template>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:value-of select="../bf:descriptionModifier[count(../bf:descriptionModifier)]/*/*[local-name()='code']"/>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </xsl:variable>
+              <xsl:choose>
+                <xsl:when test="$vModifierCode = 'dlc'">
+                  <xsl:variable name="v040-d">
+                    <xsl:value-of select="translate($vModifierCode,$lower,$upper)"/>
+                  </xsl:variable>
+                  <xsl:if test="$v040-d != ''">
+                    <marc:subfield code="d">
+                      <xsl:value-of select="$v040-d"/>
+                    </marc:subfield>
+                  </xsl:if>
+                </xsl:when>
+                <xsl:when test="$vModifierCode != ''">
+                  <xsl:variable name="v040-d">
+                    <xsl:value-of select="$vModifierCode"/>
+                  </xsl:variable>
+                  <xsl:if test="$v040-d != ''">
+                    <marc:subfield code="d">
+                      <xsl:value-of select="$v040-d"/>
+                    </marc:subfield>
+                  </xsl:if>
+                </xsl:when>
+              </xsl:choose>
+            </xsl:when>
+          </xsl:choose>
         </marc:datafield>
       </xsl:when>
       <xsl:otherwise>
@@ -19355,6 +21482,12 @@
   <xsl:template match="bf:Instance/bf:title/*[(local-name() = 'VariantTitle' or rdf:type[@rdf:resource='http://id.loc.gov/ontologies/bibframe/VariantTitle']) and bf:variantType = 'translated']" mode="generate-242">
     <xsl:param name="vRecordId"/>
     <xsl:param name="vAdminMetadata"/>
+    <xsl:variable name="langCode">
+      <xsl:variable name="vxmllang">
+        <xsl:value-of select="bf:mainTitle/@xml:lang"/>
+      </xsl:variable>
+      <xsl:value-of select="exsl:node-set($languages)/*[xmllang=$vxmllang]/iso6392"/>
+    </xsl:variable>
     <xsl:variable name="vXmlLang">
       <xsl:value-of select="bf:mainTitle/@xml:lang"/>
     </xsl:variable>
@@ -19427,6 +21560,28 @@
           </xsl:call-template>
         </marc:subfield>
       </xsl:for-each>
+      <xsl:choose>
+        <xsl:when test="$langCode != ''">
+          <xsl:variable name="v242-y">
+            <xsl:value-of select="$langCode"/>
+          </xsl:variable>
+          <xsl:if test="$v242-y != ''">
+            <marc:subfield code="y">
+              <xsl:value-of select="$v242-y"/>
+            </marc:subfield>
+          </xsl:if>
+        </xsl:when>
+        <xsl:when test="bf:mainTitle/@xml:lang != ''">
+          <xsl:variable name="v242-y">
+            <xsl:value-of select="bf:mainTitle/@xml:lang "/>
+          </xsl:variable>
+          <xsl:if test="$v242-y != ''">
+            <marc:subfield code="y">
+              <xsl:value-of select="$v242-y"/>
+            </marc:subfield>
+          </xsl:if>
+        </xsl:when>
+      </xsl:choose>
     </marc:datafield>
   </xsl:template>
   <xsl:template match="bf:Work/bf:title/*[                       local-name()='CollectiveTitle' or                       rdf:type[@rdf:resource='http://id.loc.gov/ontologies/bibframe/CollectiveTitle']                     ]" mode="generate-243">
@@ -21007,7 +23162,7 @@
           </xsl:for-each>
         </xsl:when>
         <xsl:when test="local-name()='ReductionRatio'">
-          <xsl:for-each select="rdf:label">
+          <xsl:for-each select="rdfs:label">
             <marc:subfield code="q">
               <xsl:call-template name="tChopPunct">
                 <xsl:with-param name="pString" select="."/>
@@ -21694,7 +23849,7 @@
       </xsl:for-each>
     </marc:datafield>
   </xsl:template>
-  <xsl:template match="bf:Instance/bf:musicFormat/bf:MusicFormat" mode="generate-348">
+  <xsl:template match="bf:Instance/bf:musicFormat/bf:MusicFormat | bf:Instance/bf:notation/bf:MusicNotation" mode="generate-348">
     <xsl:param name="vRecordId"/>
     <xsl:param name="vAdminMetadata"/>
     <xsl:variable name="vXmlLang">
@@ -21727,8 +23882,15 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
-      <xsl:for-each select="rdfs:label">
+      <xsl:for-each select="../bf:MusicFormat/rdfs:label">
         <marc:subfield code="a">
+          <xsl:call-template name="tChopPunct">
+            <xsl:with-param name="pString" select="."/>
+          </xsl:call-template>
+        </marc:subfield>
+      </xsl:for-each>
+      <xsl:for-each select="../bf:MusicNotation/rdfs:label">
+        <marc:subfield code="c">
           <xsl:call-template name="tChopPunct">
             <xsl:with-param name="pString" select="."/>
           </xsl:call-template>
@@ -22964,11 +25126,11 @@
       </xsl:for-each>
     </marc:datafield>
   </xsl:template>
-  <xsl:template match="bf:Work/bf:language/bf:Language[bf:note/bf:Note/rdfs:label]" mode="generate-546">
+  <xsl:template match="bf:Work/bf:note/bf:Note[rdf:type/@rdf:resource = 'http://id.loc.gov/vocabulary/mnotetype/lang']" mode="generate-546">
     <xsl:param name="vRecordId"/>
     <xsl:param name="vAdminMetadata"/>
     <xsl:variable name="vXmlLang">
-      <xsl:value-of select="bf:note/bf:Note/rdfs:label/@xml:lang"/>
+      <xsl:value-of select="rdfs:label/@xml:lang"/>
     </xsl:variable>
     <marc:datafield>
       <xsl:attribute name="tag">546</xsl:attribute>
@@ -22997,7 +25159,7 @@
           </xsl:otherwise>
         </xsl:choose>
       </xsl:for-each>
-      <xsl:for-each select="bf:note/bf:Note/rdfs:label">
+      <xsl:for-each select="rdfs:label">
         <xsl:choose>
           <xsl:when test="position() = 1">
             <marc:subfield code="a">
@@ -23143,6 +25305,9 @@
             </xsl:when>
             <xsl:when test="*/bf:source/bf:Source/bf:code='rvm' or                       */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/subjectSchemes/rvm' or */@rdf:about='http://id.loc.gov/vocabulary/subjectSchemes/rvm'] or                       */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='rvm'">
               <xsl:text>6</xsl:text>
+            </xsl:when>
+            <xsl:when test="*/bf:source/bf:Source/bf:code='lcgft' or                       */bf:source[@rdf:resource='http://id.loc.gov/vocabulary/genreFormSchemes/lcgft' or */@rdf:about='http://id.loc.gov/vocabulary/genreFormSchemes/lcgft'] or                       */madsrdf:componentList/*[1]/bf:source/bf:Source/bf:code='lcgft'">
+              <xsl:text>7</xsl:text>
             </xsl:when>
             <xsl:when test="*/bf:source or */madsrdf:componentList/*[1]/bf:source">
               <xsl:text>7</xsl:text>
