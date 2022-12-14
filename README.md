@@ -9,7 +9,7 @@ This project comes with a compiled version of the stylesheet. If you
 make changes to it, you can compile it with `xslt-3` as follows:
 
 ```
-$ node node_modules/xslt3/xslt3.js -t -xsl:xslt/main.xsl -export:main.sef.json -nogo "-ns:##html5"
+node node_modules/xslt3/xslt3.js -t -xsl:xslt/main.xsl -export:main.sef.json -nogo "-ns:##html5"
 ```
 
 You can also compile it with Saxon EE, if you prefer.
